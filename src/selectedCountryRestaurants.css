@@ -1,0 +1,4 @@
+.selected-country {
+  display: flex;
+  flex-direction: column;
+}
