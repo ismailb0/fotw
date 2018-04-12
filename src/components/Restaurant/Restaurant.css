@@ -1,0 +1,9 @@
+.restaurant {
+  border: 0.1px solid black;
+  margin: 1% 0%;
+  padding: 2%;
+}
+
+.restaurant-name {
+  height: 120px;
+}

@@ -1,0 +1,14 @@
+.selected-country {
+  display: flex;
+  flex-direction: column;
+  height: 98%;
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 1%;
+  width: 100%;
+}
+
+.country-name {
+  font-size: 1.4em;
+  margin: 1%;
+}
