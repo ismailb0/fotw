@@ -1,26 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import CustomizedAutoComplete from './CustomizedAutocomplete'
-import WorldChart from './WorldChart'
+import WorldChartBlock from './components/WorldChartBlock'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <MuiThemeProvider>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Welcome to React</h1>
-          </header>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
-          <CustomizedAutoComplete />
-          <WorldChart />
+      <div className="App">
+        <header className="App-header">
+          <h1 className="App-title"> Test </h1>
+        </header>
+        <div className="page-content">
+          <WorldChartBlock />
         </div>
-      </MuiThemeProvider>
+      </div>
     );
   }
 }
